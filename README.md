@@ -15,7 +15,7 @@ Currently It supports:
 - Making http requests to specified url
  -Launching programs to specified path. 
  
-To get started you should create a config file at `~/.config/electron-shortcut/config.json` where `~` is your home directory with your favorite editor that looks like below:
+To get started you have to create a config file with your favorite editor at `~/.config/electron-shortcut/config.json` where `~` is your home directory:
  
 ```javascript
 {
@@ -24,6 +24,7 @@ To get started you should create a config file at `~/.config/electron-shortcut/c
 }
 ```
 
+First you specify keybinding which gets mapped to an url or a command.
 
 ## Installation
 
@@ -37,7 +38,7 @@ $ npm install -g globalshortcut
 $ globalshortcut
 ```
 
-Will use default config file `~/.config/electron-shortcut/config.json`
+will use default config file `~/.config/electron-shortcut/config.json`
  
 ```
 $ globalshortcut --config=`<config>`

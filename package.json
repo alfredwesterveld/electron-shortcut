@@ -1,6 +1,6 @@
 {
   "name": "globalshortcut",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "global keybinding to command",
   "main": "main.js",
   "bin": "./index.js",
