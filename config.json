@@ -1,5 +1,4 @@
 {
-  "CommandOrControl+Shift+Z": "http://localhost:1234/",
-  "CommandOrControl+Shift+X": "http://localhost:1235/",
-  "CommandOrControl+Shift+C": "/bin/date"
+  "CommandOrControl+Shift+Z": "https://api.ipify.org",
+  "CommandOrControl+Shift+X": "whoami"
 }

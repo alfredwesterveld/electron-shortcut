@@ -1,19 +1,12 @@
 #! /usr/bin/env node
 
-var electron = require('electron')
-var proc = require('child_process')
+'use strict';
 
-var child = proc.spawn(electron, [`${__dirname}/main.js`, '--config=config.json']);
+const electron  = require('electron');
+const proc      = require('child_process');
+const args      = process.argv.slice(2);
+const child     = proc.spawn(electron, [`${__dirname}/main.js`, args]);
 
-child.stdout.on('data', function(data) {
-    console.log(`${data}`);
-});
-
-child.stderr.on('data', function(data) {
-    console.log(`${data}`);
-});
-
-child.on('close', function(code) {
-    console.log(`closing code: ${code}`);
-    //Here you can get the exit code of the script
-});
+child.stdout.on('data', data => process.stdout.write(`${data}`));
+child.stderr.on('data', data => process.stderr.write(`${data}`));
+child.on('close',       code => process.stdout.write(`closing code: ${code}`));
