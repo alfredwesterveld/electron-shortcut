@@ -24,8 +24,7 @@ module.exports = function registerShortcuts (contents) {
                 }
             }).then(value => {
                 contents.send('keybinding', value);
-            })
-
+            });
         }) || console.log(`registration failed for ${key}`);
     });
 }

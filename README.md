@@ -28,19 +28,19 @@ To get started you should create a config file at `~/.config/electron-shortcut/c
 ## Installation
 
 ```bash
-$ npm install -g electron-shortcut
+$ npm install -g globalshortcut
 ```
 
 ## Usage
 
 ```bash
-$ electron-shortcut
+$ globalshortcut
 ```
 
 Will use default config file `~/.config/electron-shortcut/config.json`
  
 ```
-$ electron-shortcut --config=`<config>`
+$ globalshortcut --config=`<config>`
 ```
 
 will use config file as specified with `<config>`
