@@ -1,6 +1,6 @@
 {
   "name": "globalshortcut",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "global keybinding to command",
   "main": "main.js",
   "bin": "./index.js",
@@ -11,6 +11,7 @@
   "author": "Alfred Westerveld",
   "license": "ISC",
   "dependencies": {
+    "electron": "^1.3.3",
     "bluebird": "^3.4.1",
     "lodash": "^4.15.0",
     "minimist": "^1.2.0",
@@ -19,8 +20,5 @@
   "jest": {
     "verbose": true,
     "automock": false
-  },
-  "devDependencies": {
-    "electron": "^1.3.3"
   }
 }
