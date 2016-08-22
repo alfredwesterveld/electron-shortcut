@@ -1,6 +1,6 @@
 # Global shortcut
 
-Behind global shortcut to url or command. For example with config.json below when pressing `CommandOrControl+Shift+Z` it will return your IP as HTML5 notification and in terminal.
+Bind global shortcut to go to url or run command. For example with config.json below when pressing `CommandOrControl+Shift+Z` it will return your IP as HTML5 notification and in terminal.
 
 ## Requirements
 

@@ -1,5 +1,5 @@
 {
-  "name": "electron-shortcut",
+  "name": "globalshortcut",
   "version": "0.0.1",
   "description": "global keybinding to command",
   "main": "main.js",
