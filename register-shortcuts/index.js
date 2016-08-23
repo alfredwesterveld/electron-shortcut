@@ -2,9 +2,9 @@
 
 const Promise               = require('bluebird');
 const _                     = require('lodash');
-const config                = require('./../config/config.js');
-const shortcutHttp          = require('./shortcut-http.js');
-const shortcutExec          = require('./shortcut-exec.js');
+const config                = require('config/config');
+const shortcutHttp          = require('register-shortcuts/shortcut-http');
+const shortcutExec          = require('register-shortcuts/shortcut-exec');
 const { globalShortcut }    = require('electron');
 
 /**

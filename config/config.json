@@ -1,0 +1,5 @@
+{
+  "CommandOrControl+Shift+Z": "https://api.ipify.org",
+  "CommandOrControl+Shift+X": "whoami",
+  "CommandOrControl+Shift+D": "date"
+}
